@@ -3,3 +3,9 @@
 ################################################################################
 
 /System.Test/.vs/System.Test/v15/Server/sqlite3
+/System.Test/Test.Api.A/obj/Debug/netcoreapp2.1
+/System.Test/Test.Api.ACore/obj/Debug/netstandard2.0
+/System.Test/Test.Api.B/obj/Debug/netcoreapp2.1
+/System.Test/Test.Api.BCore/obj/Debug/netstandard2.0
+/System.Test/Test.Api.C/obj/Debug/netcoreapp2.1
+/System.Test/Test.Api.CCore/obj/Debug/netstandard2.0

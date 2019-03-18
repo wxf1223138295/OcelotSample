@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  test.api.a:
+    image: ${DOCKER_REGISTRY}testapia
+    build:
+      context: .
+      dockerfile: Test.Api.A\Dockerfile
+
+  test.api.b:
+    image: ${DOCKER_REGISTRY}testapib
+    build:
+      context: .
+      dockerfile: Test.Api.B\Dockerfile
+
+
+  test.api.c:
+    image: ${DOCKER_REGISTRY}testapic
+    build:
+      context: .
+      dockerfile: Test.Api.C\Dockerfile
+

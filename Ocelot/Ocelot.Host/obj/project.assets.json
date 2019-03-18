@@ -12025,11 +12025,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\项目\\Ocelot\\Ocelot\\Ocelot.Host\\Ocelot.Host.csproj",
+      "projectUniqueName": "G:\\项目\\GitOcelotSample\\OcelotSample\\Ocelot\\Ocelot.Host\\Ocelot.Host.csproj",
       "projectName": "Ocelot.Host",
-      "projectPath": "G:\\项目\\Ocelot\\Ocelot\\Ocelot.Host\\Ocelot.Host.csproj",
+      "projectPath": "G:\\项目\\GitOcelotSample\\OcelotSample\\Ocelot\\Ocelot.Host\\Ocelot.Host.csproj",
       "packagesPath": "C:\\Users\\RICH-IT-DEV\\.nuget\\packages\\",
-      "outputPath": "G:\\项目\\Ocelot\\Ocelot\\Ocelot.Host\\obj\\",
+      "outputPath": "G:\\项目\\GitOcelotSample\\OcelotSample\\Ocelot\\Ocelot.Host\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12048,8 +12048,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "G:\\项目\\Ocelot\\Ocelot\\Ocelot.Core\\Ocelot.Core.csproj": {
-              "projectPath": "G:\\项目\\Ocelot\\Ocelot\\Ocelot.Core\\Ocelot.Core.csproj"
+            "G:\\项目\\GitOcelotSample\\OcelotSample\\Ocelot\\Ocelot.Core\\Ocelot.Core.csproj": {
+              "projectPath": "G:\\项目\\GitOcelotSample\\OcelotSample\\Ocelot\\Ocelot.Core\\Ocelot.Core.csproj"
             }
           }
         }
