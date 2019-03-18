@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{178EDEB3-CD23-44D2-B51F-C06E0EB76AC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestApiA", "TestApiA", "{7AB66C1D-05F3-47AC-96D5-ABA366564DEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestApiB", "TestApiB", "{F2A4FD6D-8AB2-49B3-B58B-2174C3474765}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7AB66C1D-05F3-47AC-96D5-ABA366564DEE} = {178EDEB3-CD23-44D2-B51F-C06E0EB76AC5}
+		{F2A4FD6D-8AB2-49B3-B58B-2174C3474765} = {178EDEB3-CD23-44D2-B51F-C06E0EB76AC5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BAA2080-CFA9-409C-93C8-9BC0E82F2AFB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+﻿{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/values",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "129.204.217.190",
+          "Port": 8001
+        }
+      ],
+      "UpstreamPathTemplate": "/k8s/Docker",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/values",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "129.204.217.190",
+          "Port": 8002
+        }
+      ],
+      "UpstreamPathTemplate": "/testapi1/test",
+      "UpstreamHttpMethod": [ "Get" ]
+    }
+  ]
+  //"GlobalConfiguration": {
+  //  "BaseUrl": "https://api.mybusiness.com"
+  // }
+
+}
