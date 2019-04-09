@@ -23,10 +23,53 @@
       ],
       "UpstreamPathTemplate": "/testapi1/test",
       "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/TestA/Index",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "129.204.217.190",
+          "Port": 8004
+        }
+      ],
+      "ServiceName": "TestA",
+      "UpstreamPathTemplate": "/testapia/index",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/TestB/Index",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "129.204.217.190",
+          "Port": 8005
+        }
+      ],
+      "ServiceName": "TestB",
+      "UpstreamPathTemplate": "/testapib/index",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/TestC/Index",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "129.204.217.190",
+          "Port": 8006
+        }
+      ],
+      "ServiceName": "TestC",
+      "UpstreamPathTemplate": "/testapic/index",
+      "UpstreamHttpMethod": [ "Get" ]
     }
-  ]
-  //"GlobalConfiguration": {
-  //  "BaseUrl": "https://api.mybusiness.com"
-  // }
+  ],
+  "GlobalConfiguration": {
+    "ServiceDiscoveryProvider": {
+      "Host": "129.204.217.190",
+      "Port": 8100,
+      "Type": "Consul"
+    }
+  }
 
 }
